@@ -335,13 +335,18 @@ textarea {
      margin: 0;
    }
 
+   .features i  {
+     font-size: 3.75em;
+     margin-bottom: 40px;
+   }
+
    /* Reviews */
 
    .reviews {
      display: flex;
      justify-content: center;
      flex-flow: row wrap;
-     background-color: #996633;
+     background-color: #4d4d4d;
    }
 
    .pic-container {
@@ -620,8 +625,12 @@ textarea {
     flex-basis: 50%;
   }
 
-  .features .features-item-description {
+  .features .features-description {
     width: 62%;
+  }
+
+  p .features-description {
+    width: 200px;
   }
 
   /* Reviews */
@@ -634,7 +643,7 @@ textarea {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-    background-color: #996633;
+    background-color: #4d4d4d;
   }
 
   .reviews h2 {
@@ -786,13 +795,24 @@ textarea {
 
   /* Features */
 
-
   .features h2 {
     width: 90%;
   }
 
   .features article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
     flex-basis: 33%;
+  }
+
+  .features .features-description {
+    width: 62%;
+  }
+  p .features-description {
+    width: 200px;
+    text-align: center;
   }
 
   /* Reviews */
@@ -801,7 +821,7 @@ textarea {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-    background-color: #996633;
+    background-color: #4d4d4d;
   }
 
   .reviews article div {
@@ -821,7 +841,7 @@ textarea {
   ========================================================================== */
 
   .map figure  {
-    padding-bottom: 37%;
+    padding-bottom: 3%;
   }
 
   .mission h2,
