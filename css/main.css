@@ -262,7 +262,7 @@ textarea {
 
    .hero-area h1 {
      font-size: 3em;
-     font-weight: 400;
+     font-weight: 600;
      flex-flow: row wrap;
      line-height: 1.25;
    }
@@ -293,7 +293,7 @@ textarea {
         padding: 20px 0;
         margin-top: 20px;
         background-color: #2a423a;
-        font-family: 'Libre Franklin', Helvetica, Arial, sans-serif;
+        font-family: 'Libre Franklin', sans-serif;
         font-weight: 500;
         font-size: 1.125em;
         color: #e2e3ed;
@@ -372,6 +372,10 @@ textarea {
      width: 55%;
      margin: 20px 0;
    }
+
+   .social-icons i {
+      margin: 20px;
+    }
 
    /* ==========================================================================
       About Page
@@ -717,7 +721,7 @@ textarea {
        }
 
        .map figure  {
-         padding-bottom: 45%;
+         padding-bottom: 46%;
        }
 
        .contact-section .content-wrapper h2 {
@@ -729,6 +733,7 @@ textarea {
          justify-content: space-between;
          align-items: flex-start;
        }
+
 
 
 
@@ -747,6 +752,12 @@ textarea {
        .faq h2 {
          width: 100%;
        }
+
+       .faq h4,
+       .faq p {
+          font-size: .875em;
+          line-height: 1.125;
+}
      }
 
    @media only screen and (min-width: 1200px) {
@@ -786,7 +797,7 @@ textarea {
 
   aside .content-wrapper .form-description,
   aside .content-wrapper .form {
-    width: 30%;
+    width: 40%;
   }
 
   .form-description p {
@@ -817,19 +828,12 @@ textarea {
 
   /* Reviews */
 
-  .reviews {
-    display: flex;
-    justify-content: center;
-    flex-flow: row wrap;
-    background-color: #4d4d4d;
+  .reviews h2 {
+    padding-bottom: 50px;
   }
 
   .reviews article div {
     width: 42%;
-  }
-
-  .reviews h2 {
-    padding-bottom: 50px;
   }
 
   footer h4 {
@@ -841,7 +845,7 @@ textarea {
   ========================================================================== */
 
   .map figure  {
-    padding-bottom: 3%;
+    padding-bottom: 37.5%;
   }
 
   .mission h2,
